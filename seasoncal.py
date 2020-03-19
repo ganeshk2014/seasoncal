@@ -7,7 +7,7 @@
 from flask import Flask
 # get the current day of the year
 from  datetime import datetime
-app=Flask(_name_)
+app=Flask(__name__)
 @app.route('/default')
 def default():
     doy = datetime.today().timetuple().tm_yday
