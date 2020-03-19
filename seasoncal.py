@@ -6,7 +6,7 @@
 
 from flask import Flask
 # get the current day of the year
-from  datetime import date,datetime
+from  datetime import datetime
 app=Flask(_name_)
 @app.route('/default')
 def default():
