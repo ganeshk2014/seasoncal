@@ -9,8 +9,8 @@ scipy>=0.15.1
 scikit-learn>=0.18
 matplotlib>=1.4.3
 pandas>=0.19
-datetime>=3.2
-date>=3.2
+datetime==4.2
+date==4.2
 
 
 
