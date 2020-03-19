@@ -24,7 +24,7 @@ def default():
     else:
         season = '2'
     return season
-if __name__='__main__':
+if __name__=='__main__':
     app.run(debug=True)
 
 
